@@ -17,7 +17,7 @@ function setup() {
  invisG = createSprite(300,360,600,15)
  invisG.visible=false
  oBG=createGroup();
- ghost.debug=true
+ ghost.debug=false
  ghost.setCollider("rectangle",0,0,196,300)
 }
 
